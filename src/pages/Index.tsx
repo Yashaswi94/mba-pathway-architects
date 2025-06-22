@@ -30,14 +30,14 @@ const Index = () => {
         <div className="container mx-auto text-center max-w-4xl">
           <Badge className="mb-4 bg-blue-100 text-blue-800 hover:bg-blue-100">
             <Star className="w-4 h-4 mr-1" />
-            Singapore's Premier MBA Coaching Service
+            Now Launching: Singapore's Premier MBA Coaching Service
           </Badge>
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
             Get Into Top
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-600"> UK & Europe MBA Programs</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-            Singapore's leading MBA coaching and admissions consulting service specializing in UK and Europe business schools. 
+            Singapore's newest MBA coaching and admissions consulting service specializing in UK and Europe business schools. 
             Expert MBA advisor guidance to help you stand out and secure admission to prestigious programs like Oxford, Cambridge, LBS, INSEAD, and more.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -50,16 +50,16 @@ const Index = () => {
           </div>
           <div className="mt-12 flex flex-wrap justify-center gap-8 text-sm text-gray-600">
             <div className="flex items-center">
-              <Users className="w-5 h-5 mr-2 text-blue-600" />
-              300+ Singapore Professionals Placed
-            </div>
-            <div className="flex items-center">
               <Trophy className="w-5 h-5 mr-2 text-green-600" />
-              95% UK & Europe Admission Success
+              Expert UK & Europe MBA Guidance
             </div>
             <div className="flex items-center">
               <Globe className="w-5 h-5 mr-2 text-purple-600" />
               Specializing in UK & Europe B-Schools
+            </div>
+            <div className="flex items-center">
+              <Users className="w-5 h-5 mr-2 text-blue-600" />
+              Personalized Singapore-Based Support
             </div>
           </div>
         </div>
