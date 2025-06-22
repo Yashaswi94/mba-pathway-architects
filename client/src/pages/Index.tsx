@@ -79,8 +79,8 @@ const Index = () => {
             {[{
             icon: Target,
             title: "School Selection Strategy",
-            description: "Strategic guidance on selecting the right UK and Europe MBA programs based on your profile, career goals, and preferences. We help you identify the best-fit schools and create a balanced application portfolio.",
-            features: ["UK & Europe school expertise", "Profile-school matching", "Application strategy development", "Competitive landscape analysis"]
+            description: "Strategic guidance on selecting the right UK and Europe MBA programs based on your profile, career goals, and preferences. We also provide recommendations if US schools may be right for you. We help you identify the best-fit schools and create a balanced application portfolio.",
+            features: ["UK & Europe school expertise", "US school recommendations when appropriate", "Profile-school matching", "Application strategy development", "Competitive landscape analysis"]
           }, {
             icon: TrendingUp,
             title: "Profile Enhancement",
