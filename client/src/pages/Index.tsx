@@ -65,6 +65,27 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Our Story Section */}
+      <section className="py-20 px-4 bg-gradient-to-br from-blue-50 to-green-50">
+        <div className="container mx-auto max-w-4xl text-center">
+          <h2 className="text-4xl font-bold text-gray-900 mb-6">Why We Do This</h2>
+          <div className="bg-white rounded-2xl p-8 shadow-lg border border-blue-100">
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              We started this coaching service because we genuinely loved our MBA experience and want to enable more people to have this transformative journey. The connections, learning, and personal growth we gained were invaluable, and we believe everyone deserves the chance to access these opportunities.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              We charge a fee not to create barriers, but to ensure our applicants are truly committed to the process. MBA applications require dedication, reflection, and hard work from both sides. Our fee structure helps us work with serious candidates who are ready to put in the effort needed for success.
+            </p>
+            <div className="mt-8 flex justify-center">
+              <div className="flex items-center bg-blue-100 text-blue-800 px-6 py-3 rounded-full">
+                <Award className="w-5 h-5 mr-2" />
+                <span className="font-semibold">Committed to Your Success</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* What We Offer Section */}
       <section id="services" className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-6xl">
