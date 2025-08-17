@@ -5,8 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Star, Users, Trophy, Target, BookOpen, MessageSquare, FileText, Award, TrendingUp, Globe } from 'lucide-react';
 const Index = () => {
   const handleConsultationClick = () => {
-    // This would typically open a calendar booking system or contact form
-    window.open('https://calendly.com/elitembacoaching', '_blank');
+    window.open('https://calendly.com/yashaswi-agrawal/30min', '_blank');
   };
   return <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       {/* Header */}
@@ -40,11 +39,8 @@ const Index = () => {
             Singapore's newest MBA coaching and admissions consulting service specializing in UK and Europe business schools. 
             Expert MBA advisor guidance to help you stand out and secure admission to prestigious programs like Oxford, Cambridge, LBS, INSEAD, and more.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-3" onClick={handleConsultationClick}>
-              Start Your MBA Journey
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-3" onClick={handleConsultationClick}>
               Book Free Consultation
             </Button>
           </div>
